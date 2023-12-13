@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-    max-width: 400px;
-    margin: 20px auto;
+    /* max-width: 400px; */
+    margin: 10px auto;
     padding: 1px;
     border-radius: 20px;
     background-color: #fff;
@@ -17,7 +17,7 @@ body {
     position: relative;
     height: 440px;
     width: 400px;
-    border: 2px solid rgba(255, 255, 255, .5);
+    border: 1px solid rgba(255, 255, 255, .5);
     display: flex;
     justify-content: center;
     align-items: center;
