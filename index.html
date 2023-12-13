@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodforestd Sign in page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image"><img src="Frame 53027.png" alt="WOODFOREST"></div>
+
+    <div class="container">
+
+        <div class="form-box sign-up">
+            <h1>Sign Up</h1>
+
+            <form = action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" oninput="checkPasswordStrength(this.value)">
+                <!-- <p id="passwordMessage"></p> -->
+                
+
+                <button type="submit">Sign up</button>
+            </form>
+
+            <div class="login-register">
+                <p> Already have an account? <a href="#" class="login-link">Sign in</a>
+            </div>
+
+        </div>
+
+        <!-- register-link        -->
+
+        <div class="form-box sign-in">
+            <h1>Sign In</h1>
+
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" oninput="checkPasswordStrength(this.value)">
+                <!-- <p id="passwordMessage"></p> -->
+
+                <button type="submit">Sign in</button>
+            </form>
+
+            <div class="login-register">
+                <p> Don't have an account? <a href="#" class="register-link">Sign up</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="nav">
+        <div class="image2"><img src="Frame 53027.png" alt="Woodforest"></div>
+        <ul>
+            <li><p>Legal</p><a href="#">Privacy Policy <br> Term of Use  <br> Security <br> Cookie Policy</a></li>
+            <li><P>About</P><a href="#">About Woodforest <br> Careers <br> Business Contact</a></li>
+            <li><P>Support</P><a href="#">Submit a Request <br> Knowledge Base <br> Bug Bounty <br> FAQ</a></li>
+            <li><p>Service</p><a href="#">Help center <br> Fees <br> Referrals <br> Welcome bonus</a></li>
+            <li class="t"><p>Contact</p><a href="#">Token Listing: Submit a Request <br> Business Offer: Submit a Request <br> Affiliate: Submit a Request</a></li>
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
